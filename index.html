@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quizApp</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <div><img src="man-in-pc.png" alt="" srcset=""> </div>
+        <div class="middle_item"><p>SHARPEN YOUR KNOWLEDGE</p></div>
+        <div class="listed_items">
+            <ul>
+                <li><a href="#">LIBRARY</a></li>
+                <li><a href="#">VIEW WIKI</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="score_section" id="score_section">
+        <div class="placeholder"><h1>Current Score</h1></div>
+        <div class="score_proper"><h2>0</h2></div>
+    </div>
+    <div class="question_section">
+        <div id="first_question" class="first_question">
+            <h1>Question 1</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit est nesciunt impedit,
+                 facere quasi nemo! Iste natus cupiditate in consectetur,velit at non laboriosam</p>
+                 <ul>
+                     <li id="text1">A. Cloth  <label for="cloth"><input id="wrong1"  type="radio" name="cloth" id=""></label> </li>
+                     <li id="text2">B. Cloth <label for="cloth"><input id="right1" type="radio" name="cloth" id=""></label></li>
+                     <li id="text3">C. Cloth <label for="cloth"><input id="wrong1"  type="radio" name="cloth" id=""></label></li>
+                     <li id="text4">D. Cloth <label for="cloth"><input id="wrong1"  type="radio" name="cloth" id=""></label></li>
+                 </ul>
+                 <input id="btn1" onclick="change1()" type="button" value="next">
+        </div>
+        <div id="second_question" class="second_question">
+            <h1>Question 2</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit est nesciunt impedit,
+                 facere quasi nemo! Iste natus cupiditate in consectetur,velit at non laboriosam</p>
+                 <ul>
+                     <li>a. cloth <label for="cloth"><input id="wrong2" type="radio" name="cloth" id=""></label> </li>
+                     <li>b. cloth <label for="cloth"><input id="wrong2" type="radio" name="cloth" id=""></label></li>
+                     <li>c. cloth <label for="cloth"><input id="wrong2" type="radio" name="cloth" id=""></label></li>
+                     <li>d. cloth <label for="cloth"><input id="right2" type="radio" name="cloth" id=""></label></li>
+                 </ul>
+                 <input id="btn2" onclick="change2()" type="button" value="next">
+        </div>
+        <div id="third_question" class="third_question">
+            <h1>Question 3</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit est nesciunt impedit,
+                 facere quasi nemo! Iste natus cupiditate in consectetur,velit at non laboriosam</p>
+                 <ul>
+                     <li>a. cloth <label for="cloth"><input id="right3" type="radio" name="cloth" id=""></label> </li>
+                     <li>b. cloth <label for="cloth"><input id="wrong3" type="radio" name="cloth" id=""></label></li>
+                     <li>c. cloth <label for="cloth"><input id="wrong3" type="radio" name="cloth" id=""></label></li>
+                     <li>d. cloth <label for="cloth"><input id="wrong3" type="radio" name="cloth" id=""></label></li>
+                 </ul>
+                 <input id="btn3" onclick="change3()" type="button" value="next">
+        </div>
+        <div id="fourth_question" class="fourth_question">
+            <h1>Question 4</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit est nesciunt impedit,
+                 facere quasi nemo! Iste natus cupiditate in consectetur,velit at non laboriosam</p>
+                 <ul>
+                     <li>a. cloth <label for="cloth"><input id="wrong4" type="radio" name="cloth" id=""></label> </li>
+                     <li>b. cloth <label for="cloth"><input id="wrong4" type="radio" name="cloth" id=""></label></li>
+                     <li>c. cloth <label for="cloth"><input id="right4" type="radio" name="cloth" id=""></label></li>
+                     <li>d. cloth <label for="cloth"><input id="wrong4" type="radio" name="cloth" id=""></label></li>
+                 </ul>
+                 <input id="btn4" onclick="change4()" type="button" value="next">
+        </div>
+        <div id="fifth_question" class="fifth_question">
+            <h1>Question 5</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit est nesciunt impedit,
+                 facere quasi nemo! Iste natus cupiditate in consectetur,velit at non laboriosam</p>
+                 <ul>
+                     <li>a. cloth <label for="cloth"><input id="wrong5" type="radio" name="cloth" id=""></label> </li>
+                     <li>b. cloth <label for="cloth"><input id="right5" type="radio" name="cloth" id=""></label></li>
+                     <li>c. cloth <label for="cloth"><input id="wrong5" type="radio" name="cloth" id=""></label></li>
+                     <li>d. cloth <label for="cloth"><input  id="wrong5" type="radio" name="cloth" id=""></label></li>
+                 </ul>
+                <input id="btn5" onclick="change5()" type="button" value="Submit">
+        </div>
+    </div>
+    <div class="final_result" id="final_result">
+        <h1>
+            YOUR FINAL SCORE IS
+        </h1>
+    </div>
+    <!-- <div class="footer_section">
+        <p>all rights reserved &copy; austine 2020</p>
+    </div> -->
+
+
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

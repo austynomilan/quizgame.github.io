@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: greenyellow;
+}
+nav .middle_item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+}
+nav .listed_items ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+nav .listed_items ul li{
+    padding: 10px;
+}
+nav .listed_items ul a{
+   text-decoration: none;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* the score section */
+.score_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 70px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    visibility: visible;
+}
+.score_proper{
+    padding-top: 6px;
+}
+/* questions section */
+.question_section{
+    display: block;
+}
+.first_question, .second_question, .third_question, .fourth_question,
+.fifth_question {
+    padding: 0px 80px;
+}
+.first_question{
+    visibility: visible;
+}
+.first_question h1{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.first_question p{
+    padding-bottom: 10px;
+}
+.first_question ul{
+   list-style: none;
+   padding-top: 10px;
+}
+.first_question ul li{
+    padding: 20px;
+ }
+ .first_question input{
+    width: 20px;
+    height: 20px;
+ }
+.second_question{
+    display: none;
+    margin-top: 10px;
+}
+.second_question h1{
+    padding-bottom: 30px;
+}
+.second_question p{
+    padding-bottom: 10px;
+}
+.second_question ul{
+   list-style: none;
+   padding-top: 10px;
+}
+.second_question ul li{
+    padding: 20px;
+ }
+ .second_question input{
+    width: 20px;
+    height: 20px;
+ }
+.third_question{
+    display: none;
+    margin-top: 10px;
+}
+.third_question h1{
+    padding-bottom: 30px;
+}
+.third_question p{
+    padding-bottom: 10px;
+}
+.third_question ul{
+   list-style: none;
+   padding-top: 10px;
+}
+.third_question ul li{
+    padding: 20px;
+ }
+ .third_question input{
+    width: 20px;
+    height: 20px;
+ }
+.fourth_question{
+    display: none; 
+    margin-top: 10px;
+}
+.fourth_question h1{
+    padding-bottom: 30px;
+}
+.fourth_question p{
+    padding-bottom: 10px;
+}
+.fourth_question ul{
+   list-style: none;
+   padding-top: 10px;
+}
+.fourth_question ul li{
+    padding: 20px;
+ }
+ .fourth_question input{
+    width: 20px;
+    height: 20px;
+ }
+.fifth_question{
+    display: none; 
+    margin-top: 10px;
+}
+.fifth_question h1{
+    padding-bottom: 30px;
+}
+.fifth_question p{
+    padding-bottom: 10px;
+}
+.fifth_question ul{
+   list-style: none;
+   padding-top: 10px;
+}
+.fifth_question ul li{
+    padding: 20px;
+ }
+ .fifth_question input{
+    width: 20px;
+    height: 20px;
+ }
+ #btn1,#btn2,#btn3,#btn4{
+    width: 70px;
+    height: 30px;
+    background-color: greenyellow;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 50%;
+ }
+ #btn5{
+     width: 70px;
+     height: 30px;
+     background-color: greenyellow;
+     color: white;
+     border: 1px solid black;
+     cursor: pointer;
+ }
+ /* final result section */
+.final_result{
+    display: none;
+}
+ .final_result h1{
+    text-align: center;
+    margin-top: 15%
+ }
+ /* footer section */
+.footer_section p{
+    text-align: center;
+    opacity: 0.5;
+    color: grey;
+    margin-top: 50px;
+}
