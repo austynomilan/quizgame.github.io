@@ -26,28 +26,21 @@
         text3=$('#text3'),
         text4=$('#text4');
 
+        //function
+        function changeColor() {
+            text2.addClass('grnn'); 
+         }
+        function changeColor1() {
+            text1.addClass('rdd'); 
+        }
+        function changeColor3() {
+            text3.addClass('rdd'); 
+        }
+        function changeColor4() {
+            text4.addClass('rdd');  
+        }
 
-        right1.click(function(){
-            text2.style.color= 'green'; 
-        })
-
-
-
-
-
-
-        // function changeColor() {
-        //     text2.style.color='green'; 
-        // }
-        // function changeColor1() {
-        //     text1.style.color='red'; 
-        // }
-        // function changeColor3() {
-        //     text3.style.color='red'; 
-        // }
-        // function changeColor4() {
-        //     text4.style.color='red'; 
-        // }
+    
         function change1() {
             first_question.hide();
              second_question.show();
