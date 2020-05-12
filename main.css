@@ -41,6 +41,15 @@ nav .listed_items ul a{
 .score_proper{
     padding-top: 6px;
 }
+/* color change class */
+.grnn{
+    background: green;
+    color: white;
+}
+.rdd{
+    background: red;
+    color: white;
+}
 /* questions section */
 .question_section{
     display: block;
